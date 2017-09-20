@@ -14,6 +14,7 @@ Now you can visit [`localhost:4000/graphiql`](http://localhost:4000/graphiql) fr
 # API Example
 
 * Returns list of all posts with comments, and users that made them
+    ```
     {
       posts{
         title,
@@ -32,8 +33,10 @@ Now you can visit [`localhost:4000/graphiql`](http://localhost:4000/graphiql) fr
         }        
       }
     }
+    ```
 
 * Returns a User by ID, containing all Comments the user made
+    ```
     {
       user(id: 2){
         name,
@@ -46,3 +49,4 @@ Now you can visit [`localhost:4000/graphiql`](http://localhost:4000/graphiql) fr
         }
       }
     }
+    ```
