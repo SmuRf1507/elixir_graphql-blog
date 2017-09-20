@@ -9,7 +9,8 @@ To start your Phoenix app:
   * Install Node.js dependencies with `npm install`
   * Start Phoenix endpoint with `mix phoenix.server`
 
-Now you can visit [`localhost:4000/graphiql`](http://localhost:4000/graphiql) from your browser.
+Now you can visit [`localhost:4000/graphiql`](http://localhost:4000/graphiql) from your browser,
+or use [`localhost:4000/api`](http://localhost:4000/api) for requests.
 
 # API Example
 
